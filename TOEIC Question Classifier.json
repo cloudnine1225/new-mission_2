@@ -1,0 +1,458 @@
+{
+  "name": "TOEIC Question Classifier",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg",
+          "cachedResultName": "TOEIC AI 자동화 시스템",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": 902093312,
+          "cachedResultName": "TOEIC_자동화_테스트데이터_100문제",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg/edit#gid=902093312"
+        },
+        "event": "rowAdded",
+        "options": {
+          "dataLocationOnSheet": {
+            "values": {
+              "rangeDefinition": "specifyRangeA1",
+              "range": "A1:L"
+            }
+          }
+        }
+      },
+      "id": "03c5a991-868f-4202-8743-93246dc6d9ba",
+      "name": "New Row in Question Sheet",
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        96
+      ],
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "iRLq26cYQDNn3AUO",
+          "name": "Google Sheets Trigger account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 4
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json[\"문제 유형\"] }}",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "rightValue": "문법",
+                    "id": "49f5e0e9-dcc6-4e89-9096-cf7c60a3550c"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "문법"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 4
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json[\"문제 유형\"] }}",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "rightValue": "어휘",
+                    "id": "4438ccd4-9b16-4cd0-adef-802bff028595"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "어휘"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "94b67a17-f4df-40ba-a254-daabd63a4e96",
+      "name": "Classify by 문제 유형",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.5,
+      "position": [
+        224,
+        96
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg",
+          "cachedResultName": "TOEIC AI 자동화 시스템",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "문법문제"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "TOEIC-003",
+              "displayName": "TOEIC-003",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "문법",
+              "displayName": "문법",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "품사",
+              "displayName": "품사",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Please provide a ------- description of the damaged item.",
+              "displayName": "Please provide a ------- description of the damaged item.",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "detailed",
+              "displayName": "detailed",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "details",
+              "displayName": "details",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "in detail",
+              "displayName": "in detail",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "detail",
+              "displayName": "detail",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "D",
+              "displayName": "D",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "A",
+              "displayName": "A",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "명사 description을 수식하는 형용사 detailed가 필요하다.",
+              "displayName": "명사 description을 수식하는 형용사 detailed가 필요하다.",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "AI 생성 모의문제",
+              "displayName": "AI 생성 모의문제",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "handlingExtraData": "ignoreIt"
+        }
+      },
+      "id": "86aeacfe-0693-4fba-8370-6c855b174d58",
+      "name": "Append to 문법문제",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        448,
+        0
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "KPe9acf0d7MTLkdN",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg",
+          "cachedResultName": "TOEIC AI 자동화 시스템",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1gjZQNizZFbNnV9TdiZ_RRL_VdKyG4Pe67nKEGV6Zyjg/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "어휘문제"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "TOEIC-055",
+              "displayName": "TOEIC-055",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "어휘",
+              "displayName": "어휘",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "동사",
+              "displayName": "동사",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Please ------- your contact details before submitting the form.",
+              "displayName": "Please ------- your contact details before submitting the form.",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ship",
+              "displayName": "ship",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "D",
+              "displayName": "D",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "C",
+              "displayName": "C",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "연락처가 정확한지 확인한다는 뜻이다.",
+              "displayName": "연락처가 정확한지 확인한다는 뜻이다.",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "AI 생성 모의문제",
+              "displayName": "AI 생성 모의문제",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "handlingExtraData": "ignoreIt"
+        }
+      },
+      "id": "d2951a9f-e56e-4b49-9cd4-8a828ee10f3b",
+      "name": "Append to 어휘문제",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        448,
+        192
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "KPe9acf0d7MTLkdN",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "New Row in Question Sheet": {
+      "main": [
+        [
+          {
+            "node": "Classify by 문제 유형",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Classify by 문제 유형": {
+      "main": [
+        [
+          {
+            "node": "Append to 문법문제",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Append to 어휘문제",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "363ab5aa-9b0b-48a8-b43b-3cff27d5e069",
+  "meta": {
+    "instanceId": "933830c85353843ff98a1f9f3644bedc460b7707a6f63d6f8a0ac732ed1df816"
+  },
+  "nodeGroups": [],
+  "id": "dbbD4YjYGKTogEQn",
+  "tags": []
+}

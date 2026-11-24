@@ -1,0 +1,101 @@
+﻿문제 ID,문제 유형,세부 유형,토익 문제,선택지 A,선택지 B,선택지 C,선택지 D,내가 선택한 답,정답,해설,출처
+TOEIC-001,문법,품사,The board expressed its ------- with the quarterly results.,satisfactorily,satisfaction,satisfy,satisfactory,A,B,its 뒤에는 명사 satisfaction이 필요하다.,AI 생성 모의문제
+TOEIC-051,어휘,동사,The loyalty program helps the company ------- existing customers.,inspect,postpone,install,retain,B,D,기존 고객을 유지한다는 의미에는 retain이 적절하다.,AI 생성 모의문제
+TOEIC-002,문법,품사,The new software is ------- compatible with our existing systems.,fully,fulfill,fullness,full,C,A,형용사 compatible을 수식하는 부사 fully가 필요하다.,AI 생성 모의문제
+TOEIC-052,어휘,동사,The board decided to ------- the meeting until next Monday.,recruit,postpone,assemble,deliver,C,B,회의를 다음 월요일까지 연기한다는 뜻이다.,AI 생성 모의문제
+TOEIC-003,문법,품사,Please provide a ------- description of the damaged item.,detailed,details,in detail,detail,D,A,명사 description을 수식하는 형용사 detailed가 필요하다.,AI 생성 모의문제
+TOEIC-053,어휘,동사,The warehouse staff will ------- the packages to regional stores.,negotiate,distribute,approve,attend,D,B,물품을 여러 매장에 배분한다는 뜻이다.,AI 생성 모의문제
+TOEIC-004,문법,품사,The ------- of the new facility is scheduled for May.,opened,opens,opening,openly,D,C,The와 of 사이에서 주어 역할을 하는 명사 opening이 필요하다.,AI 생성 모의문제
+TOEIC-054,어휘,동사,The technician will ------- the new printer in the reception area.,retain,install,refund,submit,D,B,프린터를 설치한다는 뜻이다.,AI 생성 모의문제
+TOEIC-005,문법,품사,The technician responded ------- to the service request.,prompt,promptness,prompted,promptly,B,D,동사 responded를 수식하는 부사 promptly가 필요하다.,AI 생성 모의문제
+TOEIC-055,어휘,동사,Please ------- your contact details before submitting the form.,ship,consume,verify,hire,D,C,연락처가 정확한지 확인한다는 뜻이다.,AI 생성 모의문제
+TOEIC-006,문법,품사,The company is seeking ------- candidates for the position.,qualifies,qualification,qualify,qualified,C,D,명사 candidates를 수식하는 형용사 qualified가 필요하다.,AI 생성 모의문제
+TOEIC-056,어휘,동사,The hotel agreed to ------- the full amount to the guest after the cancellation.,inspect,forecast,recruit,refund,B,D,취소 후 금액을 환불한다는 뜻이다.,AI 생성 모의문제
+TOEIC-007,문법,품사,The manager praised the staff for their ------- during the transition.,flexible,flex,flexibility,flexibly,D,C,소유격 their 뒤에 명사 flexibility가 필요하다.,AI 생성 모의문제
+TOEIC-057,어휘,동사,The company plans to ------- twenty engineers this year.,recruit,distribute,expire,renovate,D,A,엔지니어를 채용한다는 뜻이다.,AI 생성 모의문제
+TOEIC-008,문법,품사,The updated instructions are ------- clearer than the previous version.,considerable,considerably,consider,consideration,C,B,비교급 clearer를 수식하는 부사 considerably가 필요하다.,AI 생성 모의문제
+TOEIC-058,어휘,동사,The maintenance team will ------- the damaged elevator.,repair,publish,donate,reserve,C,A,고장 난 엘리베이터를 수리한다는 뜻이다.,AI 생성 모의문제
+TOEIC-009,문법,품사,Customer ------- is a key priority for our support team.,retainingly,retain,retention,retentive,D,C,주어의 핵심 명사 retention이 필요하다.,AI 생성 모의문제
+TOEIC-059,어휘,동사,The sales department will ------- next quarter's revenue based on current trends.,assemble,attend,deliver,forecast,B,D,향후 매출을 예측한다는 뜻이다.,AI 생성 모의문제
+TOEIC-010,문법,품사,The hotel offers ------- priced rooms for business travelers.,reasonably,reasonableness,reasonable,reason,D,A,priced를 수식하는 부사 reasonably가 필요하다.,AI 생성 모의문제
+TOEIC-060,어휘,동사,Please ------- the attached form and return it with your signature.,employ,consume,expire,complete,B,D,양식을 작성한다는 뜻이다.,AI 생성 모의문제
+TOEIC-011,문법,관계사,Applicants ------- have completed the training may apply for the position.,who,which,whose,whom,B,A,사람 선행사와 주어가 없는 관계절이므로 who가 필요하다.,AI 생성 모의문제
+TOEIC-061,어휘,동사,The supplier failed to ------- the goods by the agreed delivery date.,deliver,renovate,attend,recruit,B,A,약속된 날짜까지 상품을 배송한다는 뜻이다.,AI 생성 모의문제
+TOEIC-012,문법,관계사,The supplier ------- products we distribute is based in Seoul.,who,which,whose,whom,A,C,products의 소유 관계를 나타내는 whose가 필요하다.,AI 생성 모의문제
+TOEIC-062,어휘,동사,The committee will ------- the proposals and select the best one.,refund,install,evaluate,ship,D,C,제안서를 평가한다는 뜻이다.,AI 생성 모의문제
+TOEIC-013,문법,관계사,"The report, ------- was published yesterday, includes sales forecasts.",which,what,who,that,C,A,사물 선행사의 계속적 용법에는 which를 쓴다.,AI 생성 모의문제
+TOEIC-063,어휘,명사,The company offers a two-year ------- against manufacturing defects.,inventory,warranty,agenda,itinerary,D,B,제조 결함에 대한 보증은 warranty이다.,AI 생성 모의문제
+TOEIC-014,문법,관계사,The branch ------- we held the meeting has recently been renovated.,where,who,which,whose,B,A,완전한 절 앞에서 장소를 나타내는 where가 필요하다.,AI 생성 모의문제
+TOEIC-064,어휘,명사,Please check the ------- for the departure and arrival times of each flight.,receipt,invoice,itinerary,contract,D,C,항공편 일정표는 itinerary이다.,AI 생성 모의문제
+TOEIC-015,문법,관계사,"Ms. Chen, to ------- the package was addressed, is on vacation.",who,which,whom,whose,A,C,전치사 to 뒤 사람 목적격 관계대명사 whom이 필요하다.,AI 생성 모의문제
+TOEIC-065,어휘,명사,The cashier issued a ------- as proof of payment.,proposal,receipt,forecast,brochure,D,B,결제 증빙으로 발급하는 영수증은 receipt이다.,AI 생성 모의문제
+TOEIC-016,문법,관계사,The committee will review ------- the contractor has submitted.,what,who,whose,which,B,A,선행사를 포함하고 submitted의 목적어 역할을 하는 what이 필요하다.,AI 생성 모의문제
+TOEIC-066,어휘,명사,The warehouse manager conducts a monthly ------- of all goods in stock.,interview,inventory,promotion,itinerary,D,B,재고 파악을 의미하는 inventory가 적절하다.,AI 생성 모의문제
+TOEIC-017,문법,관계사,The consultant ------- advice we followed will visit next week.,which,where,whom,whose,C,D,advice의 소유 관계를 나타내는 whose가 필요하다.,AI 생성 모의문제
+TOEIC-067,어휘,명사,The customer received an ------- listing the charges and the amount due.,invoice,agenda,certificate,resume,C,A,청구 금액을 명시한 송장은 invoice이다.,AI 생성 모의문제
+TOEIC-018,문법,관계사,"The deadline was extended to Friday, ------- gave us more time to prepare.",which,what,that,whom,B,A,앞 절 전체를 받는 계속적 용법의 which가 필요하다.,AI 생성 모의문제
+TOEIC-068,어휘,명사,The first item on the meeting ------- is the annual budget.,shipment,receipt,agenda,warranty,B,C,회의 안건 목록은 agenda이다.,AI 생성 모의문제
+TOEIC-019,문법,분사,All items ------- online before noon will be shipped today.,order,ordering,ordered,orders,B,C,items가 주문되는 수동 관계이므로 과거분사 ordered가 필요하다.,AI 생성 모의문제
+TOEIC-069,어휘,명사,The company is seeking a ------- to replace its retiring chief accountant.,recipient,supplier,successor,tenant,A,C,은퇴하는 사람의 후임자는 successor이다.,AI 생성 모의문제
+TOEIC-020,문법,분사,Customers ------- for technical assistance should call this number.,looks,looked,look,looking,A,D,고객이 직접 찾는 능동 관계이므로 looking이 필요하다.,AI 생성 모의문제
+TOEIC-070,어휘,명사,The landlord is responsible for repairs under the terms of the -------.,receipt,brochure,lease,itinerary,D,C,임대 조건을 정하는 계약은 lease이다.,AI 생성 모의문제
+TOEIC-021,문법,분사,The documents ------- to the application must be signed.,attaches,attached,attaching,attach,D,B,documents가 첨부되는 수동 관계이므로 attached가 필요하다.,AI 생성 모의문제
+TOEIC-071,어휘,명사,The applicant submitted a ------- outlining her education and work experience.,warranty,forecast,receipt,resume,C,D,학력과 경력을 정리한 이력서는 resume이다.,AI 생성 모의문제
+TOEIC-022,문법,분사,The team is ------- in exploring alternative suppliers.,interested,interests,interestingly,interest,D,A,be interested in은 ~에 관심이 있다는 표현이다.,AI 생성 모의문제
+TOEIC-072,어휘,명사,The company issued a press ------- announcing the launch of its new product.,lease,inventory,receipt,release,C,D,press release는 보도자료를 뜻한다.,AI 생성 모의문제
+TOEIC-023,문법,분사,The conference ------- next month is expected to attract 500 guests.,schedule,scheduling,scheduled,schedules,B,C,conference가 예정되는 수동 관계이므로 scheduled가 필요하다.,AI 생성 모의문제
+TOEIC-073,어휘,형용사,The equipment is no longer ------- because the warranty has expired and repairs are not covered.,available for purchase,suitable for storage,eligible for free repairs,ready for delivery,B,C,보증 만료와 무상 수리 제외 문맥에는 eligible for free repairs가 맞다.,AI 생성 모의문제
+TOEIC-024,문법,분사,Visitors ------- the exhibition must show their tickets at the entrance.,entering,enters,entered,enter,D,A,visitors가 입장하는 능동 관계이므로 entering이 필요하다.,AI 생성 모의문제
+TOEIC-074,어휘,형용사,The information in the personnel file is strictly ------- and must not be shared.,confidential,durable,optional,portable,D,A,인사 파일의 비공개 정보는 confidential이다.,AI 생성 모의문제
+TOEIC-025,문법,분사,"The instructions were -------, so several users asked for clarification.",confused,confuse,confusion,confusing,A,D,혼란을 유발하는 instructions를 설명하므로 confusing이 적절하다.,AI 생성 모의문제
+TOEIC-075,어휘,형용사,The restaurant offers ------- meals for guests who do not eat meat.,annual,vegetarian,defective,fragile,C,B,고기를 먹지 않는 고객을 위한 채식 식사는 vegetarian이다.,AI 생성 모의문제
+TOEIC-026,문법,분사,Equipment ------- during the move will be replaced at no charge.,damages,damaging,damaged,damage,D,C,equipment가 손상되는 수동 관계이므로 damaged가 필요하다.,AI 생성 모의문제
+TOEIC-076,어휘,형용사,The packaging is designed to protect ------- items such as glassware.,fragile,vacant,annual,eligible,C,A,유리 제품처럼 깨지기 쉬운 물건은 fragile이다.,AI 생성 모의문제
+TOEIC-027,문법,시제,"Since January, the company ------- three new branches.",opens,will open,is opening,has opened,B,D,Since January와 현재까지의 완료된 실적에는 현재완료가 적절하다.,AI 생성 모의문제
+TOEIC-077,어휘,형용사,The position has been ------- since the previous manager resigned.,vacant,confidential,portable,durable,B,A,사직 후 공석인 상태는 vacant이다.,AI 생성 모의문제
+TOEIC-028,문법,시제,"By the time we arrived yesterday, the presentation ------- already begun.",will have,has,is,had,B,D,과거 도착보다 앞선 일을 나타내는 과거완료 had begun이다.,AI 생성 모의문제
+TOEIC-078,어휘,형용사,The factory uses ------- materials that can withstand extreme temperatures.,vacant,temporary,confidential,heat-resistant,C,D,극한 온도를 견디는 재료는 heat-resistant이다.,AI 생성 모의문제
+TOEIC-029,문법,시제,The accounting team ------- the report yesterday afternoon.,completed,completes,will complete,has completed,C,A,yesterday afternoon은 과거 시점을 나타낸다.,AI 생성 모의문제
+TOEIC-079,어휘,형용사,The discount is ------- only to customers who present a valid coupon.,available,portable,fragile,vacant,C,A,쿠폰을 제시한 고객에게 제공된다는 의미는 available이다.,AI 생성 모의문제
+TOEIC-030,문법,시제,"While the manager was speaking, the staff ------- notes.",has taken,were taking,is taking,takes,D,B,과거에 동시에 진행 중인 행동이므로 were taking이 적절하다.,AI 생성 모의문제
+TOEIC-080,어휘,형용사,The report provides a ------- overview covering every department and major expense.,comprehensive,portable,fragile,vacant,D,A,모든 부서와 주요 지출을 포괄하는 것은 comprehensive이다.,AI 생성 모의문제
+TOEIC-031,문법,시제,"By next June, the team will have ------- the renovation.",completed,completing,complete,completes,B,A,미래완료 will have 뒤에는 과거분사가 필요하다.,AI 생성 모의문제
+TOEIC-081,어휘,부사,The two departments will operate ------- until the merger is complete.,independently,politely,accidentally,rarely,B,A,합병 전 각각 독립적으로 운영한다는 뜻이다.,AI 생성 모의문제
+TOEIC-032,문법,시제,The store usually ------- at nine on weekdays.,opens,open,opened,opening,B,A,반복되는 일상과 단수 주어에 맞는 opens가 필요하다.,AI 생성 모의문제
+TOEIC-082,어휘,부사,The shipment arrived ------- two days before the scheduled delivery date.,unexpectedly,verbally,annually,confidentially,C,A,예정일보다 이틀 일찍 도착한 예상 밖 상황을 나타낸다.,AI 생성 모의문제
+TOEIC-033,문법,수동태,The invoices must ------- before the end of the month.,be paying,pay,be paid,paid,B,C,청구서는 지불되는 대상이므로 must be paid가 필요하다.,AI 생성 모의문제
+TOEIC-083,어휘,부사,"The contract must be renewed -------, every twelve months.",locally,annually,manually,briefly,D,B,every twelve months는 매년 annually이다.,AI 생성 모의문제
+TOEIC-034,문법,수동태,The winning design was ------- by a panel of experts.,selecting,selected,selects,selection,D,B,was와 by가 있는 수동태에는 과거분사가 필요하다.,AI 생성 모의문제
+TOEIC-084,어휘,부사,The machine shuts down ------- when the temperature exceeds the safety limit.,confidentially,automatically,verbally,annually,D,B,온도 조건에 따라 자동으로 작동한다는 뜻이다.,AI 생성 모의문제
+TOEIC-035,문법,수동태,Additional information can be ------- from the reception desk.,obtains,obtained,obtain,obtaining,D,B,can be 뒤에는 수동태 과거분사 obtained가 필요하다.,AI 생성 모의문제
+TOEIC-085,어휘,부사,"The manager spoke ------- about the issue, limiting her remarks to one minute.",annually,locally,briefly,independently,D,C,발언을 1분으로 제한했으므로 briefly가 적절하다.,AI 생성 모의문제
+TOEIC-036,문법,수동태,All visitors are ------- to wear identification badges.,require,requirement,required,requiring,A,C,be required to는 ~하도록 요구된다는 뜻이다.,AI 생성 모의문제
+TOEIC-086,어휘,부사,The products are manufactured ------- within the city rather than imported.,verbally,annually,locally,confidentially,B,C,도시 내에서 생산하므로 locally가 적절하다.,AI 생성 모의문제
+TOEIC-037,문법,전치사,The workshop will take place ------- the second floor.,at,between,into,on,C,D,건물의 층을 나타낼 때 on the second floor를 쓴다.,AI 생성 모의문제
+TOEIC-087,어휘,연어,All employees must ------- with the company's safety regulations.,contribute,participate,comply,depend,D,C,comply with는 규정을 준수하다는 뜻이다.,AI 생성 모의문제
+TOEIC-038,문법,전치사,Please submit your expense report ------- Friday at the latest.,among,during,since,by,A,D,마감 기한을 나타내는 by가 필요하다.,AI 생성 모의문제
+TOEIC-088,어휘,연어,The company will ------- a survey to measure customer satisfaction.,reserve,commit,conduct,deliver,D,C,conduct a survey는 설문조사를 실시하다는 뜻이다.,AI 생성 모의문제
+TOEIC-039,문법,전치사,The office will remain closed ------- the public holiday.,during,into,among,onto,D,A,기간을 나타내는 명사구 앞에 during을 쓴다.,AI 생성 모의문제
+TOEIC-089,어휘,연어,The team worked overtime to ------- the deadline.,hold,meet,perform,attend,C,B,meet a deadline은 마감 기한을 맞추다라는 뜻이다.,AI 생성 모의문제
+TOEIC-040,문법,전치사,The team succeeded ------- reducing operating costs.,to,by,in,at,B,C,succeed in -ing는 ~하는 데 성공하다는 뜻이다.,AI 생성 모의문제
+TOEIC-090,어휘,연어,The new campaign aims to ------- awareness of workplace safety.,raise,grow,lift,rise,B,A,raise awareness는 인식을 높이다라는 연어이다.,AI 생성 모의문제
+TOEIC-041,문법,전치사,The new policy applies ------- all employees.,with,from,to,of,D,C,apply to는 ~에 적용되다는 뜻이다.,AI 생성 모의문제
+TOEIC-091,어휘,연어,Please ------- attention to the instructions on the label.,give in,take,pay,make,B,C,pay attention to는 ~에 주의를 기울이다라는 뜻이다.,AI 생성 모의문제
+TOEIC-042,문법,접속사,"------- the weather was poor, the event went ahead as planned.",During,Although,Because of,Despite,A,B,뒤에 주어와 동사가 있는 절이 오고 양보 의미이므로 Although가 적절하다.,AI 생성 모의문제
+TOEIC-092,어휘,연어,The company hopes to ------- a profit in its first year.,make,hold,take,do,D,A,make a profit은 이익을 내다라는 뜻이다.,AI 생성 모의문제
+TOEIC-043,문법,접속사,Please contact us ------- you have any questions.,during,if,despite,because of,C,B,조건을 나타내며 완전한 절을 이끄는 if가 필요하다.,AI 생성 모의문제
+TOEIC-093,어휘,연어,The manager will ------- responsibility for overseeing the project.,attend,install,assume,deliver,A,C,assume responsibility는 책임을 맡다라는 뜻이다.,AI 생성 모의문제
+TOEIC-044,문법,접속사,The meeting was postponed ------- the director was unavailable.,despite,during,due to,because,C,D,원인을 나타내는 완전한 절 앞에는 because를 쓴다.,AI 생성 모의문제
+TOEIC-094,어휘,연어,The new procedures will ------- effect on January 1.,do,take,make,hold,D,B,take effect는 효력이 발생하다라는 뜻이다.,AI 생성 모의문제
+TOEIC-045,문법,접속사,You cannot access the database ------- you enter the correct password.,despite,unless,because of,during,D,B,올바른 비밀번호를 입력하지 않으면이라는 조건에는 unless가 적절하다.,AI 생성 모의문제
+TOEIC-095,어휘,전치사 결합,The marketing team is responsible ------- developing the campaign.,for,to,at,with,B,A,be responsible for는 ~을 담당하다라는 뜻이다.,AI 생성 모의문제
+TOEIC-046,문법,동명사·부정사,The manager encouraged employees ------- the training session.,to attend,attended,attending,attend,D,A,encourage A to V 구조이다.,AI 생성 모의문제
+TOEIC-096,어휘,전치사 결합,The discount is subject ------- availability.,to,by,for,with,D,A,be subject to는 ~에 따라 달라지다라는 뜻이다.,AI 생성 모의문제
+TOEIC-047,문법,동명사·부정사,We recommend ------- the instructions before installation.,reads,read,reading,to reading,A,C,recommend 뒤에 행동을 나타내는 동명사 reading을 쓴다.,AI 생성 모의문제
+TOEIC-097,어휘,전치사 결합,The new software is compatible ------- our existing operating system.,to,for,with,by,D,C,be compatible with는 ~와 호환된다는 뜻이다.,AI 생성 모의문제
+TOEIC-048,문법,동명사·부정사,The company plans ------- its operations overseas.,expanded,to expand,expansion,expanding,D,B,plan to V는 ~할 계획이라는 뜻이다.,AI 생성 모의문제
+TOEIC-098,어휘,전치사 결합,The staff participated ------- a training workshop last week.,on,to,with,in,B,D,participate in은 ~에 참여하다라는 뜻이다.,AI 생성 모의문제
+TOEIC-049,문법,동명사·부정사,Thank you for ------- our customer satisfaction survey.,completing,to complete,complete,completed,D,A,전치사 for 뒤에는 동명사가 필요하다.,AI 생성 모의문제
+TOEIC-099,어휘,전치사 결합,The company specializes ------- energy-efficient lighting products.,to,at,in,with,D,C,specialize in은 ~을 전문으로 하다라는 뜻이다.,AI 생성 모의문제
+TOEIC-050,문법,수일치,Each of the applicants ------- a separate identification number.,having,has,are having,have,D,B,Each가 주어의 핵심이므로 단수 동사 has가 필요하다.,AI 생성 모의문제
+TOEIC-100,어휘,전치사 결합,The new policy is intended to protect employees ------- workplace hazards.,to,at,into,from,C,D,protect A from B는 A를 B로부터 보호하다라는 뜻이다.,AI 생성 모의문제
